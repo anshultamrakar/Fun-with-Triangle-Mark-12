@@ -1,6 +1,6 @@
 const quizForm = document.querySelector(".quiz-form");
 const submitButton = document.querySelector("#submit-btn");
-const outputEl = document.querySelector("#output");
+const outputElement = document.querySelector("#output");
 
 
 const correctAnswer = ["90", "right angled "];
@@ -16,7 +16,7 @@ function calculateScore(){
         index = index + 1 ;
     }
    
-    outputEl.innerText = "Your score is " + score ;
+    outputElement.innerText = "Your score is " + score ;
 }
 
 
