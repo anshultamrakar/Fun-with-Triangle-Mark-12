@@ -13,7 +13,7 @@ const outputEl = document.querySelector("#output");
 function calculateHypoteneus(){
         const sumOfsqrt = calculateHypo(Number(hypoInputs[0].value), Number(hypoInputs[1].value), Number(hypoInputs[2].value));
         const lengthOfHypo = Math.sqrt(sumOfsqrt);
-        console.log(lengthOfHypo);
+        outputEl.innerText = "The length of hypoteneus is " + lengthOfHypo;
 }
 
 hypoButton.addEventListener("click", calculateHypoteneus);
