@@ -71,13 +71,18 @@ input, button{
     line-height: 2.5em;
 }
 
-.button, .hypo-btn , .submit-btn{
+.button , #submit-btn, #hypo-btn, #area-btn {
     background-color: blue;
     color: #fff;
+ 
 }
 
 .quiz-container {
- border: 3px solid black;
+ border: 4px solid white ;
  width: 100%;
  margin: 15px;
+ padding: 1.5rem;
+ color: #333;
+ text-align: center;
+ font-weight: bolder;
 }

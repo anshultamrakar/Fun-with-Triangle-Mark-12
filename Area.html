@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title> Fun with triangles </title>
+    <title> Area of triangle </title>
 </head>
 <body>
     <nav class="nav-bar">
@@ -13,21 +13,18 @@
         <h1 class="header">  <a href="quiz.html"> Quiz </a>  </h1>
         <h1 class="header">  <a href="hypotenues.html"> Hypotenues</a>  </h1>
         <h1 class="header">  <a href="Area.html"> Area</a>  </h1>
-     
-       
     </nav>
-    <main class = container >
-        <h1>IsTriangle ?</h1>
-        <label >angle1 : </label>
-        <input type="text" class="angle-input">
-        <label >angle2 : </label>
-        <input type="text"  class="angle-input" >
-        <label >angle3 : </label>
-        <input type="text"  class="angle-input" >
-        <button class="button" id="btn"> IsTriangle </button>
-        <div id="output"> </div>  
+    <main class="container">
+        <h1> Check area of triangle</h1>
+        <h3 class="quiz-container"> Area of triangle = 1/2 (Base * height)</h3>
+        <label> Base(in cm) :</label>
+        <input type="text" class="area-input">
+        <label>Height(in cm) : </label>
+        <input type="text" class="area-input" >
+        <button id="area-btn">Calculate Area of triangle </button>
+        <div id="output"></div>
     </main>
-   
+    
 </body>
-<script src="main.js"></script>
+<script src="Area.js"></script>
 </html>
